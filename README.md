@@ -1,2 +1,7 @@
-# CSE-122-FALL-2023
-This is an OOP lab repo
+Name: MD. Faysal Islam Fahad
+
+ID: 22235103133
+
+Intake: 51
+
+Section: 02
