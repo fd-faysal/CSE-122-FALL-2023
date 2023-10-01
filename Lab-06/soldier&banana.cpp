@@ -3,34 +3,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-   int n,steps=0;
-   cin >> n;
- 
+   
+   long long int n,k,w,price=0;
+   cin >> k >> n >> w;
 
- while(n!=0){
-    if(n>=5){
-        n=n-5;
-       
-        steps++;
+    for(int i=1;i<=w;i++){
+        price+=(k*i);
     }
-    else if(n>=4){
-        n=n-4;
-        steps++;
-    }
-    else if(n>=3){
-        n=n-3;
-        steps++;
-    }
-    else if(n>=2){
-        n=n-2;
-        steps++;
-    }
-    else if(n>=1){
-        n=n-1;
-    steps++;
-    }
- }
-
-cout<<steps;
+   long long int res=price-n;
+   if(res>0) cout<<res;
+   else cout<<0;
    return 0;
 }
